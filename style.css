@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Quicksand:wght@500&display=swap');}
+
+*{
+    background-color:hsl(178, 71%, 93%);
+    font-family: 'Quicksand', 'Times New Roman', Times, serif;
+}
+
+h1{
+    color:hsl(184, 94%, 13%) ;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size:5em;
+}
+
+h2{
+    color: hsl(162, 54%, 66%);
+    letter-spacing: 2px;
+    text-align: left;
+    font-size:3em;
+}
+
+h3{
+    color: hsl(191, 100%, 52%);
+    letter-spacing: 1px;
+    text-align: left;
+    font-size:1.5em;
+}
+
+td:nth-child(1) {
+    width: 20%;
+    }
+
+td:nth-child(2) {
+        width: 20%;
+        }
+td:nth-child(3) {
+            width: 60%;
+            }
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+	vertical-align: middle;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  thead th {
+    width: 25%;
+    background-color: #333;
+    color: white;
+    font-size: 1.2rem;
+	letter-spacing: 5px;
+  }
+
+section#structure {
+    color: hsl(18, 86%, 54%);
+    font-size: larger;
+}
+
+p {
+    color: black;
+    display: inline;
+    font-size: larger;
+}
+
